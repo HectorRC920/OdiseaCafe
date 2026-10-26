@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+
+# Variables de entorno (contienen la URL del feed)
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+*.log
+
+# Sistema / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.vercel
